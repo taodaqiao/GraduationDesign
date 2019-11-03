@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="kernel_define">
+      <UniqueIdentifier>{8eb36fc3-ac9b-4088-a0c9-540195520ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YHyperPlatform">
+      <UniqueIdentifier>{dd555459-b7c2-45ea-aa0f-dd6c8129471c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YHyperPlatform\Arch">
+      <UniqueIdentifier>{0ee7b7e9-4226-449c-89e2-a9eeb7ec6f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YHyperPlatform\Arch\asm_x86">
+      <UniqueIdentifier>{9cf5774b-c6ce-4100-ae7d-304499a8f8bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YHyperPlatform\Arch\asm_x64">
+      <UniqueIdentifier>{4f44a68a-52d2-4cb3-a3c1-9e9bb0625baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="system_call">
+      <UniqueIdentifier>{8c2f78a7-5824-4910-ab8b-61569271bff2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Inf Include="GraduationDesign.inf">
+      <Filter>Header Files\Driver Files</Filter>
+    </Inf>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FindSSDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkDefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveCallBack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DisablePg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel_hook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel_define_7601.h">
+      <Filter>kernel_define</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_func.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ntos_win7_sp1_64.h">
+      <Filter>kernel_define</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_contex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAntiDebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YHypervisor\asm.h">
+      <Filter>YHyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="YHypervisor\common.h">
+      <Filter>YHyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="YHypervisor\ept.h">
+      <Filter>YHyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="YHypervisor\hotplug_callback.h">
+      <Filter>YHyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="YHypervisor\ia32_type.h">
+      <Filter>YHyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="YHypervisor\log.h">
+      <Filter>YHyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="YHypervisor\perf_counter.h">
+      <Filter>YHyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="YHypervisor\performance.h">
+      <Filter>YHyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="YHypervisor\power_callback.h">
+      <Filter>YHyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="YHypervisor\util.h">
+      <Filter>YHyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="YHypervisor\util_page_constants.h">
+      <Filter>YHyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="YHypervisor\vm.h">
+      <Filter>YHyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="YHypervisor\vmm.h">
+      <Filter>YHyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="YHypervisor\YHypervisor.h">
+      <Filter>YHyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="YHypervisor\global_object.h">
+      <Filter>YHyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SysCallHook.h">
+      <Filter>system_call</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpu.h">
+      <Filter>system_call</Filter>
+    </ClInclude>
+    <ClInclude Include="SDTHook.h">
+      <Filter>system_call</Filter>
+    </ClInclude>
+    <ClInclude Include="HookFunction.h">
+      <Filter>system_call</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Gdi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindSSDT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveCallBack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DisablePG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel_hook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_func.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread_contex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAntiDebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="YHypervisor\ept.cpp">
+      <Filter>YHyperPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="YHypervisor\hotplug_callback.cpp">
+      <Filter>YHyperPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="YHypervisor\log.cpp">
+      <Filter>YHyperPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="YHypervisor\performance.cpp">
+      <Filter>YHyperPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="YHypervisor\power_callback.cpp">
+      <Filter>YHyperPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="YHypervisor\util.cpp">
+      <Filter>YHyperPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="YHypervisor\vm.cpp">
+      <Filter>YHyperPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="YHypervisor\vmm.cpp">
+      <Filter>YHyperPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="YHypervisor\YHypervisor.cpp">
+      <Filter>YHyperPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="YHypervisor\global_object.cpp">
+      <Filter>YHyperPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SysCallHook.cpp">
+      <Filter>system_call</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpu.cpp">
+      <Filter>system_call</Filter>
+    </ClCompile>
+    <ClCompile Include="SDTHook.cpp">
+      <Filter>system_call</Filter>
+    </ClCompile>
+    <ClCompile Include="HookFunction.cpp">
+      <Filter>system_call</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="disable_pg.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="swap_context.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="YHypervisor\Arch\asm_x64\x64.asm">
+      <Filter>YHyperPlatform\Arch\asm_x64</Filter>
+    </MASM>
+    <MASM Include="YHypervisor\Arch\asm_x86\x86.asm">
+      <Filter>YHyperPlatform\Arch\asm_x86</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
